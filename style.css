@@ -117,19 +117,16 @@ button {
 .confetti {
     position: fixed;
     bottom: -50px;
-    animation: float 4s ease-out forwards;
+    font-size: 30px;
+    animation: float 3s ease-out forwards;
     pointer-events: none;
     z-index: 9999;
-    font-size: 40px;
-    opacity: 0.9;
-    text-shadow: 0 2px 5px rgba(0,0,0,0.2);
 }
 
 @keyframes float {
-    0% {
-        transform: translateY(0) translateX(0) rotate(0deg);
-        opacity: 1;
-    }
+    0% { transform: translateY(0) rotate(0deg); opacity: 1; }
+    100% { transform: translateY(-120vh) rotate(720deg); opacity: 0; }
+}
     100% {
         transform: translateY(-150vh) translateX(calc(var(--x) * 1.5)) rotate(720deg);
         opacity: 0;
