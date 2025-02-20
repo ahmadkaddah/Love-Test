@@ -13,13 +13,13 @@ let currentLang = 'ar';
 
 const translations = {
     en: {
-        question: "Do You Love Me ?",
+        question: "Do You Love D7MOS ?",
         yesResponse: "D7MOS Love You Too 💖",
         yes: "Yes",
         no: "No"
     },
     ar: {
-        question: "هل بتحبني ؟",
+        question: "هل بتحب دحموس ؟",
         yesResponse: "💖 دحموس كمان بحبك",
         yes: "نعم",
         no: "لا"
